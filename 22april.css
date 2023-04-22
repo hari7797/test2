@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    position: sticky;
+}
+.logo{
+    margin: 25px 30px;
+    font-size: 24px;
+}
+.link{
+    margin: 25px;
+}
+.link ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.link ul li{
+    margin: 0 13px;
+}
+.link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 30px;
+    color: white;
+}
+.main .content{
+    margin-right: 30px;
+    
+}
+.main .content p{
+    margin-top: 15px;
+}
+.main .image img{
+    width: 500px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: orange;
+}
+.contact{
+    margin: 35px 30px;
+}
+.contact h1{
+    color: orange;
+}
+.contact input{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: black;
+    margin: 15px 0;
+}
+.contact input::placeholder{
+    color: orange;
+}
+.contact input[type="text"]{
+    margin-right: 20px;
+}
+.tabled{
+    color: orange;
+    margin: 35px 30px;
+    
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid orange;
+}
+table #headcell{
+    border: 2px solid orange;
+}
+table td{
+    padding: 15px 35px;
+}
+table #lastcell{
+    background-color: orange;
+    color: black;
+}
